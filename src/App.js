@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MainPage from "./pages/Main Page/mainpage";
+import {
+  Container,
+  GlobalStyle,
+  Footer,
+  SocialMediaIconContainer,
+  Facebook,
+  LinkedIn,
+  Instagram,
+  Twitter,
+} from "./styles.app.js";
+import NavBar from "./NavBar/navbar.js";
+import PageTwo from "./pages/Page Two/pagetwo.js";
+import PageThree from "./pages/Page 3/pagethree.js";
+import PageFour from "./pages/Page 4/pagefour.js";
+import FinalPage from "./pages/Final Page/finalpage.js";
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <GlobalStyle />
+      <NavBar />
+      <MainPage />
+      <PageTwo id="pagetwo" />
+      <PageThree />
+      <PageFour />
+      <FinalPage />
+      <Footer>
+        <SocialMediaIconContainer href="#">
+          <Facebook />
+        </SocialMediaIconContainer>
+
+        <SocialMediaIconContainer href="#">
+          <LinkedIn />
+        </SocialMediaIconContainer>
+
+        <SocialMediaIconContainer href="#">
+          <Instagram />
+        </SocialMediaIconContainer>
+
+        <SocialMediaIconContainer href="#">
+          <Twitter />
+        </SocialMediaIconContainer>
+      </Footer>
+    </Container>
   );
 }
-
-export default App;
