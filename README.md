@@ -1,4 +1,4 @@
-🚧 Under construction.
+🚧 Under construction and (hopefully) coming soon.
 
 A landing page for a fake company called "Oceanah".
 
