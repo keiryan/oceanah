@@ -1,6 +1,6 @@
 **🚧 Total rebuild coming soon!**
 
-A landing page for a fake company called *"Oceanah"*.
+A landing page for a mock company called *"Oceanah"*.
 
 🧑‍💻 Live demo here: https://oceanah.vercel.app/
 
