@@ -1,4 +1,4 @@
-**🚧 Total rebuild coming soon!**
+**🚧 Total rebuild coming soon!🚧**
 
 A landing page for a mock company called *"Oceanah"*.
 
